@@ -1,0 +1,60 @@
+/* CSS */
+
+body {
+  font-family: Overpass;
+  margin: auto;
+  background: #EEE8AA;
+}
+
+#banner-padrao {
+  background: #BDB76B;
+  margin: auto;
+  width: 900px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+#banner {
+  background: #556B2F;
+  color: #BDB76B;
+  margin: auto;
+  width: 890px;
+  height: 50px;
+  padding-left: 10px;
+  padding-bottom: 18px;
+  padding-top: 5px;
+}
+
+#footer-padrao {
+  background: #BDB76B;
+  margin: auto;
+  width: 900px;
+  height: 50px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#copyright{
+  font-size: 12px;
+}
+
+#conteudo {
+  background: #EEE8AA;
+  margin: auto;
+  width: 900px;
+  height: 400px;
+  text-align: center;
+}
+
+#emcontrucao{
+  padding-top: 100px;
+  font-size: 30px;  
+}
+
+#contato{
+  padding-top: 10px;
+  font-size: 30px;  
+}

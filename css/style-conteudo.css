@@ -1,0 +1,295 @@
+/* CSS */
+
+#conteudo-padrao {
+  background: #EEE8AA;
+  margin: auto;
+  width: 900px;
+  height: auto;
+  text-align: center;
+}
+
+.geral-padrao{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.geral-card {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  width: 200px;
+  height: 150px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #BDB76B;
+  color: white;
+  width: 90px;
+  height: 15px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: #556B2F;
+  color: white;
+}
+
+/* Propriedades do Conteudo */
+@media (min-width: 300px) {
+  #conteudo-padrao {
+    width: 300px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  #conteudo-padrao {
+    width: 600px;
+  }
+}
+
+@media (min-width: 900px) {
+  #conteudo-padrao {
+    width: 900px;
+  }
+}
+
+/* Propriedades dos Cards */
+@media (max-width: 900px) {
+  .geral-padrao {
+    grid-template-columns: 1fr;
+  }
+  
+  .geral-card {
+    width: auto;
+  }
+}
+
+#conteudo-basico {
+  background: #EEE8AA;
+  margin: auto;
+  width: 900px;
+  height: auto;
+  text-align: center;
+}
+
+.basico-padrao{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-basico {
+  background-color: #BDB76B;
+  color: white;
+  width: 90px;
+  height: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px 5px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn-basico:hover {
+  background-color: #556B2F;
+  color: white;
+}
+
+.login-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/login.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.permissao-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/geral.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.principal-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/principal.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.versao-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/versao.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.cliente-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/cliente.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.itens-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/itens.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.financeiro-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/financeiro.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.imprimir-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/imprimir.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.cidades-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/cidades.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.margem-geral-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/margem-geral.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.margem-produto-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/margem-produto.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.produtos-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/produtos.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.impostos-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/impostos.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.frete-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/frete.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.listas-card {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../img/listas.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 640px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
